@@ -10,10 +10,6 @@ import os
 auth_key = "DEEPL_TOKEN"
 translator = deepl.Translator(auth_key)
 
-import discord
-import deepl
-from discord.ext import commands
-
 def run_discord_bot():
     TOKEN = "DISCORD_TOKEN"
     intents = discord.Intents.default()
